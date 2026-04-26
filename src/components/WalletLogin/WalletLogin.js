@@ -97,10 +97,12 @@ export const WalletLogin = () => {
   return (
     <div className="walletLoginPage">
       <div className="walletLoginCard">
-         
+         <div className="walletLoginLogo">
+          <img src={logoImg} alt="CoinLocator" />
+        </div>
         <h1 className="walletLoginTitle">Sign in with your wallet</h1>
         <p className="walletLoginSubtitle">
-          Choose a wallet you already use in this browser to open the NitroGem dashboard. If several
+          Choose a wallet you already use in this browser to open the CoinLoactor dashboard. If several
           Ethereum wallets are installed, you may see more than one option—pick the one you want to use here.
         </p>
         <ConnectWalletButton userId="sousa" />
